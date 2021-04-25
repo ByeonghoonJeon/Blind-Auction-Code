@@ -12,6 +12,8 @@ As like real auction, if the biding price is duplicated, the first person become
 This program requires real name. Thus only alphabet is available for the user input.
 However, our real name includes period and blank as well in many cases. For this reason, "." and " " is temporarily removed to check the validity of input.
 
+Also user's number input is checked with isdigit(). Thus user can not input any twisted answer but program's intended input which is number.
+
 If name and biding price is collected, these information is piled to the dictionary. To avoid same name confusion, if a name is already in the dictionary, The program requires another name.
 
 Consquently, this program filters the maximum value in the dictionary.
